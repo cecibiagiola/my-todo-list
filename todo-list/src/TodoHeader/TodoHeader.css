@@ -1,0 +1,24 @@
+.Header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    overflow: hidden;  
+    border-radius: 5px;
+}
+
+
+.TodoHeader{  
+    padding: 10px;
+    text-align: center;
+    top: 0;
+    font-size: medium;
+}
+
+.Image{
+    width: 30%;
+    height: 40%;
+    border-radius: 50%;
+    padding: 10px;
+}
