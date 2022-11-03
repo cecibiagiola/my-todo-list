@@ -14,11 +14,14 @@ function AppUI({
     searchedTodos,
     completeTodo,
     deleteTodo,
+    pendingTodos,
 }) {
     
     return(
         <React.Fragment>
-      <TodoHeader />
+      <TodoHeader 
+        pending={pendingTodos}
+      />
       <TodoCounter 
         total={totalTodos}
         completed={completedTodos}

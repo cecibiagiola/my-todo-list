@@ -29,7 +29,7 @@
     width: 48px;
     font-size: 24px;
     font-weight: bold;
-    /* background-color: #CCC; */
+    
   }
   
   .Icon-check {
@@ -41,10 +41,13 @@
   }
   
   .Icon-delete {
-    position: absolute;
-    top: -24px;
+    position: relative;
     right: 0;
+    color: red;
+    
   }
   .Icon-delete:hover {
-    color: red;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
   }

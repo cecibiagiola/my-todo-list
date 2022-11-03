@@ -20,6 +20,7 @@ function App() {
   const [searchValue, setSearchValue] = React.useState('');
   
   const completedTodos = todos.filter(todo => !!todo.completed).length;
+  const pendingTodos = todos.filter(todo => todo.completed == false).length; //agregado recientemente
   const totalTodos = todos.length;
 
   let searchedTodos = [];
@@ -56,6 +57,7 @@ function App() {
     <AppUI 
     totalTodos={totalTodos}
     completedTodos={completedTodos}
+    pendingTodos={pendingTodos} //agregado recientemente
     searchValue={searchValue}
     setSearchValue={setSearchValue}
     searchedTodos={searchedTodos}
