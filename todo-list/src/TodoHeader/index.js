@@ -2,7 +2,9 @@ import React from "react";
 import './TodoHeader.css';
 import avatar from '../img/avatar.jpg';
 
-function TodoHeader ( {pending}) {
+function TodoHeader ( {pending} ) {
+    
+   let username = 'Cecilia';
     return(
         <div className="Header">
             <img
@@ -10,7 +12,7 @@ function TodoHeader ( {pending}) {
                 className="Image"
              />
             <h2 className="TodoHeader">
-                Hola Marta! <br /> Tienes {pending} tareas pendientes
+                Hola {username} <br /> Tienes {pending} tareas pendientes
                 </h2>
              
         </div>

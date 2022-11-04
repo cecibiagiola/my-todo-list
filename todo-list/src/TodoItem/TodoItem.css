@@ -1,20 +1,25 @@
 .TodoItem {
-    background-color: #FAFAFA;
+    background-color: #6800B8;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 24px;
+    margin-top: 24px; 
+    width: calc(100% - 62px);
     box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.15);
     border-radius: 5px;
+    width: 80%;
+    gap: 10px;
   }
   
   .TodoItem-p {
-    margin: 24px 0 24px 24px;
-    width: calc(100% - 120px);
+   margin: 24px 0px 24px 24px;  
+    padding-left: 20px;
+    width: calc(100% - 120px); 
     font-size: 18px;
     line-height: 24px;
     font-weight: 400;
+    
   }
   .TodoItem-p--complete {
     text-decoration: line-through;
@@ -29,7 +34,7 @@
     width: 48px;
     font-size: 24px;
     font-weight: bold;
-    
+   
   }
   
   .Icon-check {
