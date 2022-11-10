@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/cecibiagiola/my-todo-list/static/css/main.cc4dcf37.css",
+    "main.js": "/cecibiagiola/my-todo-list/static/js/main.00eee9fb.js",
+    "static/media/avatar.jpg": "/cecibiagiola/my-todo-list/static/media/avatar.a170f7afb07c13b83e21.jpg",
+    "index.html": "/cecibiagiola/my-todo-list/index.html",
+    "main.cc4dcf37.css.map": "/cecibiagiola/my-todo-list/static/css/main.cc4dcf37.css.map",
+    "main.00eee9fb.js.map": "/cecibiagiola/my-todo-list/static/js/main.00eee9fb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc4dcf37.css",
+    "static/js/main.00eee9fb.js"
+  ]
+}
