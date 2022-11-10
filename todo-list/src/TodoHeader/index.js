@@ -5,7 +5,7 @@ import { TodoContext } from "../TodoContext";
 
 function TodoHeader ( ) {
     const {pendingTodos} = React.useContext(TodoContext)
-   let username = 'Cecilia';
+   
     return(
         <div className="Header">
             <img
@@ -13,7 +13,7 @@ function TodoHeader ( ) {
                 className="Image"
              />
             <h2 className="TodoHeader">
-                Hola {username} <br /> Tienes {pendingTodos} tareas pendientes
+                Bienvenido! <br /> Tienes {pendingTodos} tareas pendientes
                 </h2>
              
         </div>

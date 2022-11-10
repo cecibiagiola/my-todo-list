@@ -13,7 +13,7 @@
   }
   
   .TodoItem-p {
-   margin: 24px 0px 24px 24px;  
+    margin: 24px 0px 24px 24px;  
     padding-left: 20px;
     width: calc(100% - 120px); 
     font-size: 18px;
@@ -52,7 +52,7 @@
     
   }
   .Icon-delete:hover {
-    background-color: red;
     color: white;
+    background-color: red;
     border-radius: 50%;
   }
