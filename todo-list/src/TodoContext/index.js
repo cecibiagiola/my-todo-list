@@ -31,11 +31,20 @@ function TodoProvider (props) {
         });
       }
       
+      const AddTodo = (text) => {
+        const newTodos = [...todos]; //spread operator
+        newTodos.push({
+          completed: false,
+          text,
+        });
+        saveTodos(newTodos);
+      };
+
       const completeTodo = (text) => {
         const todoIndex = todos.findIndex(todo => todo.text === text);
         
         const newTodos = [...todos]; //spread operator
-        todos[todoIndex].completed = true;
+        newTodos[todoIndex].completed = true;
         saveTodos(newTodos);
       };
     
@@ -47,7 +56,7 @@ function TodoProvider (props) {
         saveTodos(newTodos);
       };
     
-    return (
+    return ( 
         <TodoContext.Provider value={{
             error,
             loading,
@@ -57,6 +66,7 @@ function TodoProvider (props) {
             searchValue,
             setSearchValue,
             searchedTodos,
+            AddTodo,
             completeTodo,
             deleteTodo,
             openModal,
